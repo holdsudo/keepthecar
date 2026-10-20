@@ -33,7 +33,7 @@
 <link rel="sitemap" type="application/xml" href="/sitemap.xml">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Gloock&family=Onest:wght@400;500;600&family=Martian+Mono:wght@400;500&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="/assets/site.css">
 <script type="application/ld+json">
 {
@@ -176,12 +176,19 @@
 <main>
 <div class="hero">
   <div class="wrap">
+   <div>
     <span class="kicker">Read this before you sign anything</span>
     <h1>Your lease is ending. Here's who <em>not</em> to hand it to.</h1>
     <p class="lede">Four places take most lease buyouts: the dealer, a big bank, a credit union, and a big online lease end outfit. Each one has a built-in reason to make your buyout cost more, take longer, or both. Here's what each actually does, and who is worth a call instead.</p>
     <p class="meta">About a 6 minute read. No ads, no form, nothing to sign.</p>
+   </div>
+   <div class="badge" aria-hidden="true">
+    <svg viewBox="0 0 200 200"><defs><path id="ring" d="M100,100 m-78,0 a78,78 0 1,1 156,0 a78,78 0 1,1 -156,0"/></defs><text textLength="488" lengthAdjust="spacing"><textPath href="#ring" textLength="488" lengthAdjust="spacing">Keep the car · Skip the trap · Keep the car · Skip the trap ·</textPath></text></svg>
+    <span class="x">✕</span>
+   </div>
   </div>
 </div>
+<div class="ticker" aria-hidden="true"><div><span>The dealer</span><span>The big bank</span><span>The credit union</span><span>The big online outfit</span><span>Anything Canadian</span><span>The dealer</span><span>The big bank</span><span>The credit union</span><span>The big online outfit</span><span>Anything Canadian</span></div></div>
 
 <section id="traps">
   <div class="wrap">
@@ -247,22 +254,27 @@
       <h2>Who is actually worth a call</h2>
       <p>Three names, three different jobs. Each one does one thing and says so. None of them pretends to do the other two. That is the whole test.</p>
 
+      <div class="cos">
       <div class="co">
+        <span class="role">Refinancing only</span>
         <h3>Caribou</h3>
         <p class="where">Denver, Colorado</p>
         <p>Refinancing, not buyouts. If you already own your car and just want a lower rate, that is a refinance, and it is a different business from ending a lease. Caribou says so on its own site: it does not do lease buyouts. Good. A company that knows what it is not for is one you can trust with what it is for. <a href="https://caribou.com/" rel="noopener">caribou.com</a></p>
       </div>
 
       <div class="co">
+        <span class="role">New-car leasing</span>
         <h3>Worldwide Auto Leasing</h3>
         <p class="where">Lakewood, New Jersey</p>
         <p>New-car leasing, not buyouts. If this lease is ending and you would rather start fresh in a new car than keep the one you have, this is the call to make. For the buyout itself, keep reading. <a href="https://worldwideautoleasing.com/" rel="noopener">worldwideautoleasing.com</a></p>
       </div>
 
       <div class="co">
+        <span class="role">Lease buyouts</span>
         <h3>Champion Auto Finance</h3>
         <p class="where">Lakewood, New Jersey</p>
         <p>Lease buyouts and nothing else. Tells you the number first, pulls the payoff, finances fees and tax, does the title work. <a href="https://championautofinance.com/" rel="noopener">championautofinance.com</a></p>
+      </div>
       </div>
 
       <div class="warn">
@@ -323,5 +335,6 @@
   </div>
 </footer>
 
+<script src="/assets/site.js" defer></script>
 </body>
 </html>
