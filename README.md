@@ -1,9 +1,9 @@
 # bestleaseend.com
 
 One-page consumer site, published by Champion Auto Finance (disclosed in the footer).
-Registrar: Namecheap (bought 2026-10-19). Hosting plan: addon domain on the GoDaddy
-cPanel account (`cf07f328phkz`), docroot `/home/cf07f328phkz/bestleaseend.com/`,
-deployed over the same SFTP route as the portal, AutoSSL, Cloudflare in front.
+Registrar: Namecheap (bought 2026-10-19). Hosted on GitHub Pages from `holdsudo/keepthecar`:
+`.github/workflows/pages.yml` publishes `site/` on every push to `main` (custom domain in
+`site/CNAME`). Deploy = commit + push. Not on the GoDaddy account.
 
 ## Files
 - `site/index.html` — the whole site (inline CSS, Google Fonts, FAQ + WebPage JSON-LD)
